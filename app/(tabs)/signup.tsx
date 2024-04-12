@@ -1,10 +1,9 @@
 import { Link } from 'expo-router';
 import { StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function SignUpScreen(): React.ReactNode {
   return (
-    <SafeAreaView style={styles.container}>
+    <View style={styles.container}>
       <View>
         <Text style={styles.title}>Create Account</Text>
       </View>
@@ -31,7 +30,7 @@ export default function SignUpScreen(): React.ReactNode {
       <TouchableOpacity style={styles.button}>
         <Text style={styles.buttonText}>Create Account</Text>
       </TouchableOpacity>
-    </SafeAreaView>
+    </View>
   );
 }
 

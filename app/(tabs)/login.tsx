@@ -1,11 +1,10 @@
 import { Link } from 'expo-router';
 import { StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function LoginScreen(): React.ReactNode {
   return (
-    <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>Yesh</Text>
+    <View style={styles.container}>
+      <Text style={styles.title}>Eysh</Text>
       <View style={styles.position}>
         <View>
           <Text style={styles.text}> Email</Text>
@@ -25,7 +24,7 @@ export default function LoginScreen(): React.ReactNode {
       <TouchableOpacity style={styles.button}>
         <Text style={styles.buttonText}>Login</Text>
       </TouchableOpacity>
-    </SafeAreaView>
+    </View>
   );
 }
 
